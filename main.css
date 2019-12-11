@@ -9,3 +9,36 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.content div h2{
+  color:#28a745;
+}
+
+.blog-post{
+  background-color:#F8F8FF;
+}
+
+.logo{
+  font-family: 'Lakki Reddy', cursive;
+}
+
+footer{
+  background-color:#28a745;
+  height:100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .blog-post-section{
+    display:none;
+  }
+  .content{
+    border-color: white;
+  }
+
+  .nav-brand, .nav{
+    width:100%;
+    justify-content: center;
+  }
+
+}
