@@ -1,7 +1,9 @@
 
 
+
+
 .header-image {
-  height: 50vh;
+  height: auto;
   min-height: 500px;
   background-image: url('https://www.elitetrees.co.uk/wp-content/uploads/2019/07/Elite-Header-image1.jpg');
   opacity:0.8;
