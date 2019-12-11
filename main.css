@@ -3,7 +3,7 @@
 
 
 .header-image {
-  height: 65vh;
+  height: 50vh;
   min-height: 500px;
   background-image: url('https://www.elitetrees.co.uk/wp-content/uploads/2019/07/Elite-Header-image1.jpg');
   opacity:0.8;
@@ -31,6 +31,11 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
+
+  .header-image-text h1{
+    font-size:3.5em;
+  }
+
   .blog-post-section{
     display:none;
   }
