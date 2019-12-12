@@ -22,17 +22,17 @@
 
 .logo{
   font-family: 'Lakki Reddy', cursive;
+  color:#28a745 !important;
 }
+
+nav{
+  border-bottom: 2px solid #28a745;
+}
+
 
 footer{
   background-color:#28a745;
   height:100px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .header-image-text h1{
-    font-size:3.5em;
-  }
 }
 
 
@@ -46,9 +46,5 @@ footer{
     border-color: white;
   }
 
-  .nav-brand, .nav{
-    width:100%;
-    justify-content: center;
-  }
 
 }
