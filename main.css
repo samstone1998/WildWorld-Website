@@ -1,9 +1,13 @@
 
+/* global styling */
 body{
   line-height: 2 !important;
 }
+/* global styling end */
 
 
+
+/* header styling */
 .header-image {
   height: 50vh;
   min-height: 500px;
@@ -15,40 +19,46 @@ body{
   line-height: 1.5;
 }
 
-.content div h2{
-  color:#28a745;
-}
-
-.blog-post{
-  background-color:#F8F8FF;
+nav{
+  border-bottom: 2px solid #28a745;
 }
 
 .logo{
   font-family: 'Lakki Reddy', cursive;
   color:#28a745 !important;
 }
+/* header styling end */
 
-nav{
-  border-bottom: 2px solid #28a745;
+
+
+/* main body content styling */
+.content div h2{
+  color:#28a745;
 }
+/* main body content styling end */
 
-.current{
-  color:#28a745 !important;
+
+/* blog section styling */
+.blog-post{
+  background-color:#F8F8FF;
 }
+/* blog section styling end */
 
+
+/* footerstyling*/
 footer{
   background-color:#28a745;
   height:50px;
 }
+/* footerstyling end */
 
 
+/* media queries styling*/
 @media only screen and (max-width: 768px) {
 
 
   .blog-post-section{
     display:none;
   }
-
-
-
 }
+/* media query styling end */
