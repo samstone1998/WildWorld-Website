@@ -1,0 +1,79 @@
+
+/* global styling */
+body{
+  line-height: 2 !important;
+}
+/* global styling end */
+
+
+/* INDEX STYLING START */
+
+/* header styling */
+.header-image {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url('/images/header.jpg');
+  opacity:0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+
+nav{
+  border-bottom: 2px solid #28a745;
+}
+
+.logo{
+  font-family: 'Lakki Reddy', cursive;
+  color:#28a745 !important;
+}
+/* header styling end */
+
+
+
+/* main body content styling */
+.content div h2{
+  color:#28a745;
+}
+/* main body content styling end */
+
+
+/* blog section styling */
+
+#post_intro{
+	font-size:1.4em;
+}
+
+.article-intro a, .article-intro a:hover{
+	color:black;
+}
+
+
+
+
+#created_by{
+	font-size:0.8em;
+	color:grey;
+}
+
+/* blog section styling end */
+
+
+/* footerstyling*/
+footer{
+  background-color:#28a745;
+  height:50px;
+}
+/* footerstyling end */
+
+
+/* media queries styling*/
+@media only screen and (max-width: 768px) {
+
+
+  .blog-post-section{
+    display:none;
+  }
+}
+/* media query styling end */
